@@ -36,7 +36,9 @@ h2 {
   color:#1976b2;
   font-family: Georgia, serif;
 }
-
+main {
+  padding-left:2em;
+  padding-rihgt:2em;
 nav {
   font-weight: 700;
  text-align:center;
