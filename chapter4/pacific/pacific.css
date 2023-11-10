@@ -67,9 +67,7 @@ nav {
   font-size:1.2em;
   
 }
-#trailhero {
 
-}
 #wrapper {
   background-color:white;
   width:80%
@@ -80,8 +78,9 @@ nav {
   text-ident:.1em;
   box-shadow: 5px 5px black;
 }
-#yurthero {
-  background-image: url(SDEV153/chapter4/pacific/yurt.jpg);
+
+  #yurthero {
+  background-image: url("SDEV153/chapter4/pacific/yurt.jpg");
   height: 300px;
   background-size:100% 100%;
   background-repeat: no-repeat;
