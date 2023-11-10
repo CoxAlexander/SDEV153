@@ -21,6 +21,9 @@ h1 {
   color: white;
   font-family: Georgia, serif;
   line-height:200%;
+  background-image: url(images/sunset.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
   
 
 }
