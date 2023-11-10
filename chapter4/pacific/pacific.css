@@ -70,12 +70,12 @@ nav {
 
 #wrapper {
   background-color:white;
-  width:80%
+  width:80%;
   min-width:960px;
   max-width:2048px;
   margin-right:auto;
   margin-left:auto;
-  text-ident:.1em;
+  text-ident:0.1em;
   box-shadow: 5px 5px black;
 }
 
