@@ -50,7 +50,7 @@ h3 {
 }
 main {
   padding-left:2em;
-  padding-rihgt:2em;
+  padding-right:2em;
   display: block;
   
 nav {
@@ -84,7 +84,7 @@ nav {
   background-image: url(SDEV153/chapter4/pacific/yurt.jpg);
   height: 300px;
   background-size:100% 100%;
-  background-repeat: none;
+  background-repeat: no;
  
 
 }
