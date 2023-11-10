@@ -76,3 +76,10 @@ nav {
   text-ident:.1em;
   box-shadow: 5px 5px black;
 }
+#yurthero {
+  background-image:url(yurt.jpg);
+  background-repeat: none;
+  height: 300px;
+  background-size:100% 100%;
+
+}
