@@ -81,7 +81,7 @@ nav {
   box-shadow: 5px 5px black;
 }
 #yurthero {
-  background-image: url(yurt.jpg);
+  background-image: url(/yurt.jpg);
   height: 300px;
   background-size:100% 100%;
   background-repeat: none;
