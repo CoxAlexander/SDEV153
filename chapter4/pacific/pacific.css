@@ -2,7 +2,8 @@ body {
   background-color: #90C7E3;
   color: #666666;
   font-family: Verdana, Arial, sans-serif;
-  background-image:linear-gradient(to bottom, white, #90C7E3, no-repeat);
+  background-image:linear-gradient(to bottom, white, lightblue);
+  background-repeat: no-repeat;
 }
 
 dt {
@@ -50,5 +51,12 @@ nav {
   
 }
 #wrapper {
-  background-color:white
-  
+  background-color:white;
+  width:80%
+  min-width:960px;
+  max-width:2048px;
+  margin-right:auto;
+  margin-left:auto;
+  text-ident:.1em;
+  box-shadow: 5px 5px black;
+}
