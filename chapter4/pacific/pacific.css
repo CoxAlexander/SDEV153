@@ -40,7 +40,7 @@ h3 {
   font-family:Georgia,serif;
 }
 
-.homehero {
+#homehero {
   background-image:url(coast.jpg);
   background-repeat: none;
   height: 300px;
