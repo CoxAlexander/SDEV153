@@ -69,9 +69,10 @@ nav {
 }
 #trailhero {
   background-image :url("trail.jpg");
+  background-repeat: no-repeat;
   height: 300px;
   background-size: 100% 100%
-  background-repeat: no-repeat;
+ 
 
 }
 
