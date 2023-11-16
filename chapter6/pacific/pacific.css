@@ -107,6 +107,13 @@ nav ul {
   font-size:1.2em;
   
 }
+
+section {
+  float: left;
+  width: 33%;
+  padding-left: 2em;
+  padding-right: 2em;
+}
 #trailhero {
   background-image :url("images/trail.jpg");
   background-repeat: no-repeat;
