@@ -1,9 +1,11 @@
+* {
+  box-sizing: border-box;
+}
 body {
-  background-color: #90C7E3;
+  background-color: #EAEAEA;
   color: #666666;
   font-family: Verdana, Arial, sans-serif;
-  background-image:linear-gradient(to bottom, white, lightblue);
-  background-repeat: no-repeat;
+
 }
 
 dt {
@@ -17,16 +19,33 @@ footer {
   font-style: italic;
   text-align: center;
   padding: 1em;
+  background-solor: white;
+  margin-left: 170px;  
+} 
+
+header {
+  height:120 px;
+  
+}
+
+header a {
+  text-decoration: none;
+} 
+
+header a:link, a:visitied {
+  color:white;
+}
+
+header a:hover {
+  color:lightblue;
 } 
 h1 {
   background-color:#002171;
   color: white;
   font-family: Georgia, serif;
   line-height:200%;
-  background-image: url("sunset.jpg");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size:100% 72px;
+  font-size: 3em;
+  letter-spacing: 0.25em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   text-align: center;
@@ -46,22 +65,43 @@ h3 {
   background-repeat: no-repeat;
   height: 300px;
   background-size:100% 100%;
+  margin-left: 170px;  
 
 }
 main {
   padding-left:2em;
   padding-right:2em;
   display: block;
+  background-color: white;
+  margin-left: 170px;
+  overflow: auto;
 }
 nav {
   font-weight: 700;
-  padding-top: 0.5em;
-  padding-right: 0.5em;
-  padding-bottom:0.5em;
-  text-align:center;
+  padding: 0;
+  float: left;
+  width: 160px;
+  font-size: 1.2em;
+  position: fixed;
   
 }
+nav a {text-decoration: none;
+nav a:link {
+  color:#5C7FA3;
+}
+nav a:visited {
+  color:#344873;
+}
+nav a:hover {
+  color:#A53A3A;
+}  
 
+nav ul {
+  list-style: none;
+  padding-left: 1em;
+}  
+
+       
 .resort {
   color: #1976d2;
   font-size:1.2em;
@@ -71,12 +111,15 @@ nav {
   background-image :url("trail.jpg");
   background-repeat: no-repeat;
   height: 300px;
-  background-size: 100% 100%
+  background-size: 100% 100%;
+  margin-left: 170px;     
+      
  
 
 }
 
 #wrapper {
+  background-image:linear-gradient(to bottom, white, lightblue);
   background-color:#FFFFFF;
   width:80%;
   min-width:960px;
@@ -85,11 +128,14 @@ nav {
   margin-left:auto;
   text-indent:0.1em;
   box-shadow: 5px 5px black;
+  
 }
 
 #yurthero {
   background-image: url("yurt.jpg");
   height: 300px;
+  background-size: 100% 100%;
+  margin-left: 170px;  
   background-size:100% 100%;
   background-repeat: no-repeat;
  
