@@ -1,5 +1,4 @@
-* {
-  box-sizing: border-box;
+* { box-sizing: border-box;
 }
 body {
   background-color: #EAEAEA;
@@ -31,8 +30,10 @@ header {
 header a {
   text-decoration: none;
 } 
-
-header a:link, a:visitied {
+header a:visitied{
+  color:white;
+}
+header a:link {
   color:white;
 }
 
@@ -77,10 +78,11 @@ main {
   overflow: auto;
 }
 nav {
+  background-image:linear-gradient(to bottom, white, lightblue);
   font-weight: 700;
   padding: 0;
   float: left;
-  width: 160px;
+  width: 170px;
   font-size: 1.2em;
   position: fixed;
   
