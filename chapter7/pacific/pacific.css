@@ -96,6 +96,7 @@ nav {
   width: 160px;
   font-size: 1.2em; */
   position: fixed;
+  text-align: center;
   
 }
 nav a {text-decoration: none;
@@ -125,6 +126,7 @@ nav li {
   width: 100%;
   border-bottom-style: solid;
   border-width: 1px;
+
 }
 
        
