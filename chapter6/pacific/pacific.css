@@ -128,8 +128,9 @@ section {
 }
 
 #wrapper {
-  background-image:linear-gradient(to bottom, white, lightblue);
   background-color:#FFFFFF;
+  background-image:linear-gradient(to bottom, white, lightblue);
+ 
   width:70%;
   min-width:960px;
   max-width:2048px;
