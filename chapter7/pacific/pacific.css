@@ -195,6 +195,7 @@ section {
   nav ul.flex-container {
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap:nowrap;
     padding-right: 2 em
   }
   nav li {
