@@ -114,8 +114,9 @@ nav a:hover {
 }  
 
 nav ul.flex-container {
-  flex-direction: column;
   list-style-type: none;
+  flex-direction: column;
+
   padding-left: 0em;
   margin: 0px 0px 0px 0px;
 }  
