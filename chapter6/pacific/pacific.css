@@ -99,7 +99,7 @@ nav a:hover {
 }  
 
 nav ul {
-  list-style: none;
+  list-style-type: none;
   padding-left: 1em;
 }  
 
@@ -126,9 +126,7 @@ section {
  
 
 }
-ul {
-  list-style-type: none;
-}
+
 #wrapper {
   background-image:linear-gradient(to bottom, white, lightblue);
   background-color:#FFFFFF;
