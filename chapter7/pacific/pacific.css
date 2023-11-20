@@ -230,3 +230,20 @@ section {
 
 }
   
+@media screen and (min-width: 1024px) {
+  body {
+    linear-gradient(to bottom, #FFFFFF 20%, #90C7E3 60%, #FFFFFF 100%);
+  }
+nav ul {
+  padding-right: 10%
+  padding-left: 10%
+}
+
+  #wrapper {
+    margin: auto;
+    width: 80%;
+  }
+
+
+
+}
