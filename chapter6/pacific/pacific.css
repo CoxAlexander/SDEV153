@@ -87,6 +87,7 @@ nav {
   
 }
 nav a {text-decoration: none;
+      }
 nav a:link {
   color:#5C7FA3;
 }
