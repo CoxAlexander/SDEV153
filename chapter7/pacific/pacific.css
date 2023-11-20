@@ -94,9 +94,9 @@ nav {
   padding: 0;
   float: left;
   width: 160px;
-  font-size: 1.2em; */
-  position: fixed;
-  text-align: center;
+  font-size: 1.2em; 
+  position: fixed; */
+  
   
 }
 nav a {text-decoration: none;
