@@ -30,7 +30,7 @@ header {
 header a {
   text-decoration: none;
 } 
-header a:visitied{
+header a:visited{
   color:white;
 }
 header a:link {
