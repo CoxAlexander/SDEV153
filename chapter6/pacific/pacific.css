@@ -126,7 +126,9 @@ section {
  
 
 }
-
+ul {
+  list-style-type: none;
+}
 #wrapper {
   background-image:linear-gradient(to bottom, white, lightblue);
   background-color:#FFFFFF;
