@@ -184,3 +184,46 @@ section {
  
 
 }
+
+@media screen and (min-width: 600px) {
+
+  h1 {
+    font-size: 2em;
+    letter-spacing: 0.25em
+  }
+
+  nav ul.flex-container {
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 2 em
+  }
+  nav li {
+    width: 12em;
+    border-bottom-style: none;
+    
+
+  }
+  selection {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  #flow.flex-container {
+    flex-direction: row;
+  }
+  #mobile {
+   display:none;
+  }
+#desktop {
+  display: inline;
+}
+
+ #homehero {
+  background-size: 100% 100%;
+ }
+#trailhero {
+  background-size: 100% 100%;
+ #yurthero {
+  background-size: 100% 100%;
+ }
+}
+}  
