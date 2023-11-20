@@ -192,7 +192,7 @@ section {
     letter-spacing: 0.25em
   }
 
-  nav ul.flex-container {
+ nav ul.flex-container {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap:nowrap;
