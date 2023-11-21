@@ -193,7 +193,7 @@ section {
     letter-spacing: 0.25em
   }
 
- nav ul.flex-container {
+ nav ul {
     flex-direction: row;
     display: flex;
     justify-content: space-around;
