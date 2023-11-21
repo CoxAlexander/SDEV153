@@ -148,7 +148,33 @@ section {
   padding-right: 0.5em;
 }
 
+table {
+  border-color: blue;
+  border-width: 1px;
+  border-collapse:collapse;
+  width: 90%;
+  
+}
 
+td {
+  padding: 5px;
+  border-width: 1px;
+  border-color: 1px;
+  text-align: center;
+}
+
+td.text {
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #DFEDF8;
+  
+}
+th {
+  padding: 5px;
+  border-width: 1px;
+  border-color: 1px;
+}
 #trailhero {
   background-image :url("images/trail.jpg");
   background-repeat: no-repeat;
