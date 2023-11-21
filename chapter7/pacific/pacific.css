@@ -195,6 +195,7 @@ section {
 
  nav ul.flex-container {
     flex-direction: row;
+    display: flex;
     justify-content: space-around;
     flex-wrap:nowrap;
     padding-right: 2 em
@@ -237,6 +238,7 @@ section {
   }
 nav ul {
   padding-right: 10%
+  display: flex;
   padding-left: 10%
 }
 
