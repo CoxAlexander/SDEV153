@@ -113,7 +113,7 @@ nav a:hover {
   color:#A53A3A;
 }  
 
-nav ul.flex-container {
+nav ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
