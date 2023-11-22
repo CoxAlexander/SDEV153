@@ -150,9 +150,9 @@ section {
 
 table {
   border-color: blue;
-  border-width: 1px;
+  border-width: 1px solid;
   border-collapse:collapse;
-  width: 90%;
+  width: 70%;
   
 }
 thead {
