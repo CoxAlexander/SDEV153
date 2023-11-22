@@ -149,7 +149,7 @@ section {
 }
 
 table {
-  
+  margin:auto;
   border: 1px solid blue;
   border-collapse: collapse;
   width: 90%;
