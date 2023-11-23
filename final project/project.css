@@ -1,12 +1,12 @@
 h1 {
-  color: white;
+  color: red;
 }
 
-main {
+body {
   background-color: black;
 }
 
 <p> {
-  color: white;
+  color: Red;
 }
 
