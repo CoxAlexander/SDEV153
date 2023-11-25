@@ -8,6 +8,10 @@ h1 {
   color: #FFFFFF;
 }
 
+main {
+  margin-left: 160px;
+}
+
 nav {
 
   font-weight: 700;
