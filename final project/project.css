@@ -45,3 +45,7 @@ p {
   color: #FFFFFF;
 }
 
+table {
+  border-right-style: solid;
+}
+
