@@ -1,9 +1,22 @@
+
+
+body {
+  background-color: #36393e;
+}
+
 h1 {
   color: #FFFFFF;
 }
 
-body {
-  background-color: #36393e;
+nav {
+
+  font-weight: 700;
+  padding: 0;
+  float: left;
+  width: 160px;
+  font-size: 1.2em;
+  position: fixed;
+  
 }
 
 p {
