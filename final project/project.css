@@ -7,6 +7,7 @@ header {
   text-align:center;
   background-color: #b20609;
   text-size: 150px;
+  padding: 10px;
 }
 header a {
   text-decoration: none;
