@@ -6,9 +6,11 @@ body {
 header {
   text-align:center;
   text-size: 15px;
+  background-color: red;
 }
 header a {
   text-decoration: none;
+  text-size: 15px;
 } 
 header a:visited{
   color:white;
@@ -18,7 +20,7 @@ header a:link {
 }
 
 header a:hover {
-  color:red;
+  color:black;
 } 
 h1 {
   color: #FFFFFF;
