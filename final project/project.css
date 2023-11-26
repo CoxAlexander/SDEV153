@@ -6,7 +6,6 @@ body {
 header {
   text-align:center;
   background-color: #b20609;
-  text-size: 1500px;
   padding: 10px;
 }
 header a {
@@ -23,6 +22,10 @@ header a:link {
 header a:hover {
   color:black;
 } 
+header h1: {
+  text-size: 8em;
+
+}
 h1 {
   text-size 4em;
 }
