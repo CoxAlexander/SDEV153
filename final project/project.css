@@ -61,6 +61,7 @@ nav a:hover {
 nav ul {
   list-style-type: none;
   padding-left: 1em;
+  line-height:150%;
 }  
 
 p {
