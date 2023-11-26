@@ -74,5 +74,8 @@ table {
 td {
   color:white;
   padding: 15px;
-  border:1pxx solid black;
+  border:1px solid black;
+}
+th {
+   border:1px solid black;
 }
