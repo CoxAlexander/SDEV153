@@ -68,7 +68,7 @@ p {
 }
 
 table {
-  border:solid;
+  border:1px solid black;
 }
 td {
   color:white;
