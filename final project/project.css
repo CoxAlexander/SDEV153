@@ -3,7 +3,10 @@
 body {
   background-color: #36393e;
 }
-
+header {
+  text-align:center;
+  text-size: 15px;
+}
 header a {
   text-decoration: none;
 } 
