@@ -10,7 +10,7 @@ header {
 }
 header a {
   text-decoration: none;
-  text-size: 15px;
+  text-size: 150px;
 } 
 header a:visited{
   color:white;
