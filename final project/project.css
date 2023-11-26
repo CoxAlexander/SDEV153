@@ -4,10 +4,19 @@ body {
   background-color: #36393e;
 }
 
-header {
-  text-size: 15px;
-  color:#ffffff;
+header a {
+  text-decoration: none;
+} 
+header a:visited{
+  color:white;
 }
+header a:link {
+  color:white;
+}
+
+header a:hover {
+  color:red;
+} 
 h1 {
   color: #FFFFFF;
 }
