@@ -70,4 +70,6 @@ p {
 table {
   border:solid;
 }
-
+td {
+  color:white;
+}
