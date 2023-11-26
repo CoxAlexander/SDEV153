@@ -5,12 +5,11 @@ body {
 }
 header {
   text-align:center;
-  font-size: 4em;
   background-color: red;
 }
 header a {
   text-decoration: none;
-  text-size: 150px;
+ 
 } 
 header a:visited{
   color:white;
@@ -23,7 +22,7 @@ header a:hover {
   color:black;
 } 
 h1 {
-  color: #FFFFFF;
+  text-size 4em;
 }
 
 main {
