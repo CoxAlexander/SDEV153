@@ -6,6 +6,7 @@ body {
 header {
   text-align:center;
   background-color: #b20609;
+  text-size: 150px;
 }
 header a {
   text-decoration: none;
