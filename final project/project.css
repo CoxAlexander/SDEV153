@@ -68,9 +68,10 @@ p {
 }
 
 table {
-  border:1px solid white;
+  border:1px solid black;
 }
 td {
   color:white;
   padding: 15px;
+  border:1pxx solid black;
 }
