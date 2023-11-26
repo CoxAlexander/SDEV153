@@ -72,13 +72,13 @@ p {
 }
 
 table {
-  border:1px solid black;
+  border:1px solid red;
 }
 td {
   color:white;
   padding: 15px;
-  border:1px solid black;
+  border:1px solid red;
 }
 th {
-   border:1px solid black;
+   border:1px solid red;
 }
