@@ -6,7 +6,7 @@ body {
 header {
   text-align:center;
   background-color: #b20609;
-  text-size: 150px;
+  text-size: 1500px;
   padding: 10px;
 }
 header a {
@@ -46,13 +46,13 @@ nav a {
    text-decoration: none;
       }
 nav a:link {
-  color:#5C7FA3;
+  color:white;
 }
 nav a:visited {
-  color:#344873;
+  color:white;
 }
 nav a:hover {
-  color:#A53A3A;
+  color:white;
 }  
 
 nav ul {
