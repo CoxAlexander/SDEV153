@@ -4,6 +4,10 @@ body {
   background-color: #36393e;
 }
 
+header {
+  text-size: 15px;
+  color:#ffffff;
+}
 h1 {
   color: #FFFFFF;
 }
