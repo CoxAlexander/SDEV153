@@ -230,7 +230,10 @@ textarea {
  
 
 }
-
+video {
+  float: right;
+  margin: 2em;
+}
 @media screen and (min-width: 600px) {
 
   h1 {
