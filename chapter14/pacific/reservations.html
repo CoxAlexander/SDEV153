@@ -46,7 +46,7 @@
                   return re.test(val);
                 }
               </script>  
-              <label for="myPhone" onblur="checkNumber('myPhone')">Phone number: </label><input type="text" id="myPhone" name="myPhone">
+              <label for="myPhone" onsubmit="checkNumber('myPhone')";>Phone number: </label><input type="text" id="myPhone" name="myPhone">
               <label for="myDate">Arrival Date: </label><input type="date" id="myDate" name= "myDate">
               <label for="myNights">*Number of Nights: </label><input type="number" id="myNights" name="myNights" min="1" max="14">
               <label for="myComments">*Comments: </label><textarea id="myComments" name ="myComments" rows="2" cols="20" required></textarea>
