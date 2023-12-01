@@ -32,7 +32,10 @@
               function checkPhone(myId){
                 const element = document.getElementById(myId);
                 const val = element.value;
-                 /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/;
+                //555-123-4567
+                // var simpleRe = new RepExp('^[0-9]{3}-[0-9]{3}-[0-9]{4}$');
+                var re = /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/;
+                return re.test(val);
               }
             </script>
       <h2>Reservations at Pacific Trails</h2>
