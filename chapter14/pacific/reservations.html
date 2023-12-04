@@ -10,18 +10,20 @@
       <link rel="stylesheet" href="pacific.css">
       <script>
         function checkPhone(myId, msgId) {
-          const element = document.getElementById(myId) 
+          const element = document.getElementById(myId); 
           const element2 = document.getElementById(msgId);
           const val = element.value;
           var simpleRe = new RegExp('^[0-9]{3}-[0-9]{3}-[0-9]{4}$');
           const retVal = simpleRe.test(val);
           if (retVal) {
             element2.style.display = 'None'
+            alert(retVal);
             element2.innerText = "";
            
           }
           else {
             element2.style.display = 'block'
+            alert(retVal);
             element2.style.backgroundColor = 'red';
             element2.stlye.color ='white';
             element2.innerText = "Please enter a phone number in the format of: 123-456-7890"
