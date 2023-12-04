@@ -9,17 +9,19 @@
      <meta name="viewport content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="pacific.css">
       <script>
-        function checkPhone(myId, msgId) {
+        function checkPhone(myId) {
           const element = document.getElementById(myId);
           const element2 = document.getElementById(msgId);
           const val = element. value;
           var simpleRe = new RegExp('^[0-9]{3}-[0-9]{3}-[0-9]{4}$');
           const retVal = simpleRe.test(val);
           if (retVal) {
+            element2.style.display = 'None'
+            element2.innerText = "";
            
           }
           else {
-            
+            element2.style.display = 'block'
             element2.style.backgroundColor = 'red';
             element2.stlye.color ='white';
             element2.innerText = "Please enter a phone number in the format of: 123-456-7890"
@@ -59,7 +61,7 @@
               <label for="myLName">*Last Name: </label><input type="text" id="myLName" name="myLName" required>
               <label for="myEmail">*Email: </label><input type="email" id="myEmail" name="myEmail" required>
               <label for="myPhone">Phone number: </label><input type="text" id="myPhone" name="myPhone" 
-              onblur="return checkPhone('myPhone', 'message')">
+              onblur="checkPhone('myPhone')">
               <label for="myDate">Arrival Date: </label><input type="date" id="myDate" name= "myDate" onsubmit="checkNumber('myPhone')">
               <label for="myNights">*Number of Nights: </label><input type="number" id="myNights" name="myNights" min="1" max="14">
               <label for="myComments">*Comments: </label><textarea id="myComments" name ="myComments" rows="2" cols="20" required></textarea>
