@@ -15,6 +15,15 @@
           const val = element. value;
           var simpleRe = new RegExp('^[0-9]{3}-[0-9]{3}-[0-9]{4}$');
           const retVal = simpleRe.test(val);
+          if(retval) {
+            element2.innerText = "";
+            element2.stsyle.display = 'none':
+          }
+          else {
+            element2.style.display = 'block';
+            element2.style.backgroundColor = 'red';
+            element2.innerText = "Please enter a phone number in the format of: 123-456-7890";
+          }
           return retVal
         
         }
