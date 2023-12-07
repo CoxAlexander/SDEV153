@@ -89,3 +89,11 @@ th {
 }
 
 
+@media screen and (max-width: 600px) {
+  nav {
+    float: inital;
+    flex-direction: row;
+  }
+
+
+}
