@@ -6,7 +6,7 @@ body {
 header {
   text-align:center;
   background-left-color: #b20609;
-  padding: 0px;
+  padding: 10px;
 }
 header a {
   text-decoration: none;
@@ -36,11 +36,11 @@ h3{
   color:white;
 }
 main {
-  margin-left: 160px;
+  margin-left: 1600px;
   border-left-style: solid;
   border-color: #b20609;
   margin: 0px;
-  float: right;
+  
   
 }
 
