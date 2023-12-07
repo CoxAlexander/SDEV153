@@ -173,7 +173,7 @@ section {
   float: right;  
 }
 .shop form{
-  clear: right;
+  float: right;
 }
 
 #shophero {
