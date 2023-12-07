@@ -40,6 +40,8 @@ main {
   border-left-style: solid;
   border-color: #b20609;
   margin: 0px;
+  float: right;
+  
 }
 
 nav {
