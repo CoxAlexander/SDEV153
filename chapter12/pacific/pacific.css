@@ -1,1 +1,315 @@
+* { box-sizing: border-box; }
+body {
+  background-color: #90C7E3;
+  color: #666666;
+  font-family: Verdana, Arial, sans-serif;
+  margin: 0px 0px 0px 0px;
 
+}
+
+dt {
+  color:darkblue;
+  font-weight: 700;
+}
+
+#desktop {
+  display: none;  
+}
+
+footer {
+ 
+  font-size: 0.70em;
+  font-style: italic;
+  text-align: center;
+  padding: 1em;
+  background-color: white;
+  
+} 
+form {
+  display: flex;
+  flex.direction: column;
+  padding-left: 1em;
+  width: 80%;
+}
+header {
+  padding: 0em;
+  
+}
+
+header a {
+  text-decoration: none;
+} 
+header a:visited{
+  color:white;
+}
+header a:link {
+  color:white;
+}
+
+header a:hover {
+  color:lightblue;
+} 
+h1 {
+  background-color:#002171;
+  color: white;
+  font-family: Georgia, serif;
+  line-height:200%;
+  font-size: 2.5em;
+ /* letter-spacing: 0.25em;
+  padding-top: 0.5em;
+  padding-bottom: 0.85em;*/
+  text-align: center;
+
+}
+
+h2 {
+  color:#1976b2;
+  font-family: Georgia, serif;
+}
+h3 {
+  font-family:Georgia,serif;
+}
+
+#homehero {
+  background-image: url("images/coast.jpg");
+  background-repeat: no-repeat;
+  height: 300px;
+  background-size:200% 100%;
+  /*margin-left: 190px; */  
+
+}
+
+input {
+  margin-bottom: 0.5em;
+}
+main {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: block;
+ /* background-color: white;
+  margin-left: 190px;
+  overflow: auto;  */
+}
+
+
+#mobile {
+  display: inline;
+}
+nav {
+
+ /* font-weight: 700;
+  padding: 0;
+  float: left;
+  width: 160px;
+  font-size: 1.2em; 
+  position: fixed; */
+  text-align: center;
+  background-color: white;
+  
+  
+}
+nav a {text-decoration: none;
+      }
+nav a:link {
+  color:#5C7FA3;
+}
+nav a:visited {
+  color:#344873;
+}
+nav a:hover {
+  color:#A53A3A;
+}  
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 0em;
+  margin: 0px 0px 0px 0px;
+}  
+
+nav li {
+  list-style-type: none;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 1em;
+  padding-left: 1em;
+  width: 100%;
+  border-bottom-style: solid;
+  border-width: 1px;
+
+}
+#reshero {
+  height: 300px;
+  background-image: url("images/ocean.jpg");
+  background-size: 200% 100%;
+  background-repeat: no-repeat;
+}
+       
+.resort {
+  color: #1976d2;
+  font-size:1.2em;
+  
+}
+
+section {
+ /* float: left;
+  width: 33%; */
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+table {
+  margin: auto;
+  border: 1px solid blue;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+td {
+  padding: 5px;
+  border: 1px solid blue;
+  
+  
+}
+
+td.text {
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #DFEDF8;
+  
+}
+th {
+  padding: 5px;
+  border-width: 1px;
+  border-color: 1px;
+}
+
+
+textarea {
+  margin-bottom: 0.5em;
+}
+#trailhero {
+  background-image :url("images/trail.jpg");
+  background-repeat: no-repeat;
+  height: 300px;
+  background-size: 200% 100%;
+ /* margin-left: 190px; */     
+      
+ 
+
+}
+
+#wrapper {
+  background-color:#FFFFFF;
+  text-indent:0.1em;
+  /*background-image:linear-gradient(to bottom, white, lightblue);
+ 
+  width:70%;
+  min-width:960px;
+  max-width:2048px;
+  margin-right:auto;
+  margin-left:auto;
+ 
+  box-shadow: 5px 5px black; */
+  
+}
+
+#yurthero {
+  background-image: url("images/yurt.jpg");
+  height: 300px;
+  background-size: 200% 100%;
+  /* margin-left: 190px; */ 
+  
+  background-repeat: no-repeat;
+ 
+
+}
+
+@media screen and (min-width: 600px) {
+
+  h1 {
+    font-size: 2em;
+    letter-spacing: 0.25em
+  }
+ form {
+  width:60%;
+   display: grid;
+   gap: 1em;
+   grid-template-columns: 10em 1fr;
+ }
+ nav ul {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:nowrap;
+    padding-right: 2 em
+  }
+  nav li {
+    width: 12em;
+    border-bottom-style: none;
+    
+
+  }
+  selection {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  #submit {
+    grid-column: 2;
+    width: 9em;
+    
+  }
+
+  #reshero {
+    background-size: 1005 100%;
+  }
+  #flow.flex-container {
+    flex-direction: row;
+  }
+  #mobile {
+   display:none;
+  }
+#desktop {
+  display: inline;
+}
+
+ #homehero {
+  background-size: 100% 100%;
+ }
+#trailhero {
+  background-size: 100% 100%;
+ #yurthero {
+  background-size: 100% 100%;
+ }
+
+
+}
+  
+@media screen and (min-width: 1024px) {
+  body {
+    linear-gradient(to bottom, #FFFFFF 20%, #90C7E3 60%, #FFFFFF 100%);
+  }
+nav ul {
+  padding-right: 10%
+  
+  padding-left: 10%
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:nowrap;
+}
+
+  #wrapper {
+    margin: auto;
+    width: 80%;
+  }
+
+
+
+}
