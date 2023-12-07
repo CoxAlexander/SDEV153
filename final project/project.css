@@ -37,6 +37,7 @@ h3{
 }
 main {
   margin-left: 160px;
+  border-left: solid;
 }
 
 nav {
