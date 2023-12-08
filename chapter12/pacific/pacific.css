@@ -156,8 +156,8 @@ nav li {
 }
 
 section {
- /* float: left;
-  width: 33%; */
+  float: left;
+  width: 33%;
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
