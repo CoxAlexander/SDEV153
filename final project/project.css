@@ -60,12 +60,13 @@ nav a:visited {
 nav a:hover {
   color:red;
 }  
-
+nav li {
+  padding: 10%;
+}
 nav ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  padding-right: 10%;
   line-height:150%;
  
 }  
