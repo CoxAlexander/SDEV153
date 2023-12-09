@@ -62,10 +62,11 @@ nav a:hover {
 }  
 
 nav ul {
+  flex-direction: row;
   list-style-type: none;
   padding-left: 1em;
   line-height:150%;
-  flex-direction: row;
+ 
 }  
 
 p {
