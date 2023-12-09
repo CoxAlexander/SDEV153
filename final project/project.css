@@ -61,7 +61,7 @@ nav a:hover {
   color:red;
 }  
 nav li {
-  padding: 10%;
+  padding-right: 10%;
 }
 nav ul {
   display: flex;
