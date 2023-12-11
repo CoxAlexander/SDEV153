@@ -1,4 +1,13 @@
+p ul {
 
+list-style-type: none;
+}
+p a:visited{
+  color:white;
+}
+p a:link {
+  color:white;
+}
 
 body {
   background-color: #36393e;
