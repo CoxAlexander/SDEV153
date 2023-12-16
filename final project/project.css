@@ -46,6 +46,8 @@ h3{
 }
 footer {
   color:white;
+  border-top-style: solid;
+  border-color: #b20609;
 }
 main {
   border-top-style: solid;
