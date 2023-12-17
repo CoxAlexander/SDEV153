@@ -8,13 +8,10 @@ ul a:visited {
 ul a:link {
   color:white;
 }
-p a:visited{
-  color:white;
+ul img {
+  height:48px;
+  width: 48px;
 }
-p a:link {
-  color:white;
-}
-
 body {
   background-color: #36393e;
 }
