@@ -124,7 +124,7 @@ th {
     }
     nav ul{
       flex-direction: column;
-      postion: fixed;
+      position: fixed;
       float: left;
       
     }
