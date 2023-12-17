@@ -36,8 +36,9 @@ header h1: {
 
 }
 header img {
-  width:50px;
-  height:32px;
+  float: left;
+  width:100px;
+  height:64px;
 }
 h1 {
   text-size 4em;
