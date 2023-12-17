@@ -2,6 +2,12 @@ ul {
 
 list-style-type: none;
 }
+ul a:visited {
+  color:white;
+}
+ul a:link {
+  color:white;
+}
 p a:visited{
   color:white;
 }
